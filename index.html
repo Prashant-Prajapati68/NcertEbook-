@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 NCERT eBooks</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #007bff;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Book Cards */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .card a:hover {
+            background: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>NCERT eBooks - Class 9</h1>
+        <h2>Your one-stop solution for NCERT books</h2>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#science">Science</a></li>
+            <li><a href="#maths">Maths</a></li>
+            <li><a href="#social">Social Science</a></li>
+            <li><a href="#english">English</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container">
+        <h2 id="science">Science eBooks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Science Book Cover">
+                <h3>Science - Part 1</h3>
+                <p>NCERT Class 9 Science textbook.</p>
+                <a href="https://ncert.nic.in/textbook.php?iess1=0-16" target="_blank">Download</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Science Book Cover">
+                <h3>Science - Part 2</h3>
+                <p>NCERT Class 9 Science Lab Manual.</p>
+                <a href="https://ncert.nic.in/textbook.php?lesm1=0-16" target="_blank">Download</a>
+            </div>
+        </div>
+
+        <h2 id="maths">Maths eBooks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Maths Book Cover">
+                <h3>Mathematics</h3>
+                <p>NCERT Class 9 Mathematics textbook.</p>
+                <a href="https://ncert.nic.in/textbook.php?iemh1=0-16" target="_blank">Download</a>
+            </div>
+        </div>
+
+        <h2 id="social">Social Science eBooks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="History Book Cover">
+                <h3>History</h3>
+                <p>NCERT Class 9 History textbook.</p>
+                <a href="https://ncert.nic.in/textbook.php?iess1=0-16" target="_blank">Download</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Geography Book Cover">
+                <h3>Geography</h3>
+                <p>NCERT Class 9 Geography textbook.</p>
+                <a href="https://ncert.nic.in/textbook.php?iess1=0-16" target="_blank">Download</a>
+            </div>
+        </div>
+
+        <h2 id="english">English eBooks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="English Book Cover">
+                <h3>Beehive</h3>
+                <p>NCERT Class 9 English textbook.</p>
+                <a href="https://ncert.nic.in/textbook.php?iebe1=0-16" target="_blank">Download</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created with ❤️ by NCERT Resources. Visit <a href="https://ncert.nic.in/" target="_blank">NCERT Official Website</a>.</p>
+    </footer>
+    <marquee bgcolor="red" scrollamount="20%">MADE BY PRASHANT</marquee>
+</body>
+</html>
